@@ -74,11 +74,18 @@ main {
 .produits {
     list-style-type: none;
     padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .produits li {
     padding: 2% 1rem;
     transition: all 0.2s ease-in-out;
+    flex-basis: 50%;
+    flex-grow: 2;
 }
 
 .produits li:hover {
@@ -94,8 +101,6 @@ main {
 .produits figcaption {
     font-size: 1.2rem;
     line-height: 2;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .produits figcaption h2 {
