@@ -94,6 +94,8 @@ main {
 .produits figcaption {
     font-size: 1.2rem;
     line-height: 2;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .produits figcaption h2 {
