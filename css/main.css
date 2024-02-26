@@ -74,6 +74,16 @@ header nav a:hover {
     border-bottom: 3px solid #151515;
     background-color: #eeeeee;
 }
+/********** STYLE FOOTER *********/
+footer {
+    background-color: #151515;
+    margin-top: 2rem;
+    padding: 20px 40px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+
+}
 
 /********** STYLE CONTENU PRINCIPAL *********/
 main {
