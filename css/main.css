@@ -14,6 +14,12 @@ body {
     color: #151515
 }
 
+p {
+    font-size: 1.3rem;
+    line-height: 1.5;
+    max-width: 800px;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-weight: 800;
 }
@@ -28,15 +34,21 @@ a {
     color: #ff8800;
 }
 
+a:hover {
+    color: #666666;
+}
 /********** STYLE HEADER *********/
 header {
     padding: 1rem;
     text-align: center;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
-    max-height: 80px;
 }
 
 /********** STYLE NAVIGATION *********/
+
+header img {
+    max-height: 80px;
+}
 
 header nav ul {
     padding: 0;
@@ -77,15 +89,15 @@ main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-start;
+
 }
 
 .produits li {
     padding: 2% 1rem;
     transition: all 0.2s ease-in-out;
     flex-basis: 50%;
-    flex-grow: 2;
 }
 
 .produits li:hover {
@@ -96,6 +108,7 @@ main {
     text-align: center;
     margin: 0;
     padding: 1.5rem .75rem;
+    border: #151515 solid;
 }
 
 .produits figcaption {
@@ -107,4 +120,5 @@ main {
     text-align: center;
     margin: .5em 0 0;
     line-height: 1.1;
+    color:#ff8800
 }
