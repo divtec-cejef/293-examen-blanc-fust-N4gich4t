@@ -81,7 +81,8 @@ footer {
     padding: 20px 40px;
     color: #ffffff;
     text-transform: uppercase;
-    text-align: center;
+    justify-content: center;
+    display: flex;
 }
 
 /********** STYLE CONTENU PRINCIPAL *********/
@@ -96,10 +97,8 @@ main {
     list-style-type: none;
     padding: 0;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: flex-start;
 
 }
 
